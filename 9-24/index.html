@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>バナー確認サイト</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <p>バナー確認サイト</p>
+    </header>
+
+    <main>
+      <div class="upload-container">
+        <div class="preview-container">
+          <img id="preview-image" src="" />
+        </div>
+        <p>ここにアップロードした画像が表示されます</p>
+
+        <label for="image-upload" class="upload-btn"
+          >バナー画像をアップロード</label
+        >
+        <input type="file" id="image-upload" accept="image/*" class="hidden" />
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
